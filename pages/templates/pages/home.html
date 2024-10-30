@@ -1,0 +1,8 @@
+<!-- pages/templates/pages/home.html -->
+
+{% extends "base.html" %}
+
+{% block page_content %}
+    <h1>Hello, World!</h1>
+    <a href="{% url 'projects:project_index' %}">Projects</a>
+{% endblock page_content %}
